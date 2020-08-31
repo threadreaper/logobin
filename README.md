@@ -1,6 +1,6 @@
-## logobin  
+# logobin  
 
-# A simple command line utility for working with logo.bin files for Android head units based on the ac8227l SoC.  
+### A simple command line utility for working with logo.bin files for Android head units based on the ac8227l SoC.  
   
 This utility is made to simplify the process of extracting the MediaTek header from a logo.bin file or adding it 
 to an image file you want to use as your boot screen.  All the units I've seen need a 1024x600 pixel bitmap image
@@ -26,8 +26,8 @@ Help is available from the command line with the -h or --help option, but basic 
 	-u (logo.bin file)    Unpack logo.bin to a header and image file.
 	-p [(header file) (image file) (optional: filename)]	Pack header and image into a flashable binfile.If not given, filename defaults to logo.bin
 
-Using logobin as a module:  
-==  
+### Using logobin as a module:  
+  
 If you'd like to use this script as a module in some other code, it exposes the following methods:  
   
 	check(these_bytes):		*Accepts a list of bytes as input, and tests to see if they start with a valid header.*
