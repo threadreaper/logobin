@@ -8,7 +8,7 @@ in 8-bit RGB color.
 
 To install:  
   
-Clone this get repository, and from the top-level directory (where setup.py is):
+Clone this git repository, and from the top-level directory (where setup.py is):
 
 	pip3 install .
 
